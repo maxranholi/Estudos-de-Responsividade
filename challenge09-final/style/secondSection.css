@@ -1,0 +1,31 @@
+.second-container {
+  background-color: #f1f1f1;
+  color: #6f737f;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+}
+
+.second-section {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 1em 0;
+}
+
+.card-text {
+  margin: 2em 0;
+}
+
+.card-title {
+  font-family: "Oswald", sans-serif;
+  font-size: 1.5rem;
+  color: #a59678;
+  margin-bottom: 0.6em;
+}
+
+@media (min-width: 800px) {
+  .second-section {
+    display: flex;
+    gap: 2em;
+  }
+}

@@ -1,0 +1,60 @@
+.third-container {
+  padding: 5em 0;
+}
+
+.third-section {
+  width: 80%;
+  margin: 0 auto;
+  color: #6f737f;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+}
+
+.third-section h2 {
+  color: #a59678;
+  font-family: "Oswald", sans-serif;
+  font-size: 2rem;
+  margin-bottom: 0.6em;
+}
+
+.third-section img {
+  margin: 3em 0;
+}
+
+.second-text {
+  margin-bottom: 3em;
+}
+
+.card-dark {
+  background-color: #3b4050;
+  text-align: center;
+  padding: 2em;
+  margin-bottom: 1em;
+  color: #6f737f;
+}
+
+.card-dark__title {
+  font-family: "Oswald", sans-serif;
+  font-size: 1.5rem;
+  margin-bottom: 0.6em;
+  color: #ffffff;
+}
+
+@media (min-width: 800px) {
+  .third-section {
+    display: flex;
+    gap: 5em;
+    font-size: 1rem;
+  }
+  .third-section h2 {
+    font-size: 2.25rem;
+  }
+
+  .explanation {
+    width: 60%;
+  }
+
+  .cards {
+    width: 40%;
+  }
+}
